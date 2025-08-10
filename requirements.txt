@@ -8,4 +8,5 @@ numpy
 Pillow
 torch
 torchvision
+PyTorch
 
