@@ -161,7 +161,7 @@ def show():
  elif option == 'K-Drama':
           st.session_state.page = "kdrama"
           if st.session_state.page=='kdrama':
-              kdrama.show()
+              newkdrama.show()
  else:
           st.write("")
           
@@ -170,5 +170,6 @@ def show():
 
 
     
+
 
     
