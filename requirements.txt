@@ -3,6 +3,7 @@ scikit-learn
 streamlit
 urllib3
 requests
-opencv-python
+opencv-python-headless
 numpy
 Pillow
+
