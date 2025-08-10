@@ -3,6 +3,7 @@ import artff
 import newsai
 import game
 import home1
+import torch
 # st.set_page_config(page_title="VibeVerse", layout="centered")
 if 'art_button_clicked' not in st.session_state:
     st.session_state.art_button_clicked=False
@@ -127,6 +128,7 @@ elif st.session_state.news_button_clicked:
     if st.button("Back", key="back_news"):
         st.session_state.news_button_clicked = False
         st.rerun()
+
 
 
 
