@@ -3,4 +3,5 @@ scikit-learn
 streamlit
 urllib3
 requests
+opencv-python
 numpy
