@@ -139,9 +139,9 @@ def show():
     s_riie=songe9['song_name']
 
   def talk_r(s_re):
-         engine = pyttsx3.init()
-         engine.say(s_re)
-         engine.runAndWait()
+         # engine = pyttsx3.init()
+         # engine.say(s_re)
+         # engine.runAndWait()
          def play_songs(s_re):
              if (s_re):
               st.write(f"Playing the song: {s_re}")
@@ -203,9 +203,9 @@ def show():
   import urllib
   import requests
   def talk_l(s_le):
-        engine = pyttsx3.init()
-        engine.say(s_le)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_le)
+        # engine.runAndWait()
         def play_songs(s_le):
             if (s_le):
              st.write(f"Playing the song: {s_le}")
@@ -225,13 +225,13 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this song")
         play(s_le)
 
   def talk_m(s_me):
-        engine = pyttsx3.init()
-        engine.say(s_me)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_me)
+        # engine.runAndWait()
         def play_songs(s_me):
             if (s_me):
               st.write(f"Playing the song: {s_me}")
@@ -257,7 +257,7 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this song")
         play(s_me)
   if 'songs_eselected' not in st.session_state:
     st.session_state.current_song_lefte = st.session_state.songs_eselected[0]
@@ -311,9 +311,9 @@ def show():
      recommand(s_re)
   import requests
   def talk_le(s_lee):
-        engine = pyttsx3.init()
-        engine.say(s_lee)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_lee)
+        # engine.runAndWait()
         def play_songs(s_lee):
             if (s_lee):
              st.write(f"Playing the song: {s_lee}")
@@ -335,14 +335,14 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this song")
         play(s_lee)
 
 
   def talk_mi(s_mie):
-        engine = pyttsx3.init()
-        engine.say(s_mie)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_mie)
+        # engine.runAndWait()
         def play_songs(s_mie):
             if (s_mie):
              st.write(f"Playing the song: {s_mie}")
@@ -373,13 +373,13 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this song")
         play(s_mie)
   import urllib
   def talk_ri(s_rie):
-        engine = pyttsx3.init()
-        engine.say(s_rie)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_rie)
+        # engine.runAndWait()
         def play_songs(s_rie):
             if (s_rie):
              st.write(f"Playing the song: {s_rie}")
@@ -410,7 +410,7 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this song")
         play(s_rie)
 
 # Left Column - Fixed Song. 2nd column
@@ -445,9 +445,9 @@ def show():
       # 3rd row
   leee, miie, riie = st.columns(3)
   def talk_lee(s_leee):
-        engine = pyttsx3.init()
-        engine.say(s_leee)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_leee)
+        # engine.runAndWait()
         def play_songs(s_leee):
             if (s_leee):
              st.write(f"Playing the song: {s_leee}")
@@ -475,12 +475,12 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this song")
         play(s_leee)
   def talk_mii(s_miie):
-        engine = pyttsx3.init()
-        engine.say(s_miie)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_miie)
+        # engine.runAndWait()
         def play_songs(s_miie):
             if (s_miie):
              st.write(f"Playing the song: {s_miie}")
@@ -511,12 +511,12 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this song")
         play(s_miie)
   def talk_rii(s_riie):
-        engine = pyttsx3.init()
-        engine.say(s_riie)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_riie)
+        # engine.runAndWait()
         def play_songs(s_riie):
             if (s_riie):
              st.write(f"Playing the song: {s_riie}")
@@ -546,7 +546,7 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this song")
         play(s_riie)
 # Left Column - Fixed Song 1
   with leee:
@@ -574,3 +574,4 @@ def show():
       talk_rii(s_riie)
       recommand(s_riie)
 # show()
+
