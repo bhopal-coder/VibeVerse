@@ -10,7 +10,7 @@ import re
 import urllib     
 import music
 import movie
-import kdrama       
+import newkdrama       
 import englishmusic
 import hindimusic
 import hindimovie
@@ -173,3 +173,4 @@ def show():
 
 
     
+
