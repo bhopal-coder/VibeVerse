@@ -139,9 +139,9 @@ def show():
     s_riih=songh9['song_name']
 
   def talk_r(s_rh):
-         engine = pyttsx3.init()
-         engine.say(s_rh)
-         engine.runAndWait()
+         # engine = pyttsx3.init()
+         # engine.say(s_rh)
+         # engine.runAndWait()
          def play_songs(s_rh):
              if (s_rh):
               st.write(f"Playing the song: {s_rh}")
@@ -203,9 +203,9 @@ def show():
   import urllib
   import requests
   def talk_l(s_lh):
-        engine = pyttsx3.init()
-        engine.say(s_lh)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_lh)
+        # engine.runAndWait()
         def play_songs(s_lh):
             if (s_lh):
              st.write(f"Playing the song: {s_lh}")
@@ -229,9 +229,9 @@ def show():
         play(s_lh)
 
   def talk_m(s_mh):
-        engine = pyttsx3.init()
-        engine.say(s_mh)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_mh)
+        # engine.runAndWait()
         def play_songs(s_mh):
             if (s_mh):
               st.write(f"Playing the song: {s_mh}")
@@ -311,9 +311,9 @@ def show():
      recommand(s_rh)
   import requests
   def talk_le(s_leh):
-        engine = pyttsx3.init()
-        engine.say(s_leh)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_leh)
+        # engine.runAndWait()
         def play_songs(s_leh):
             if (s_leh):
              st.write(f"Playing the song: {s_leh}")
@@ -340,9 +340,9 @@ def show():
 
 
   def talk_mi(s_mih):
-        engine = pyttsx3.init()
-        engine.say(s_mih)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_mih)
+        # engine.runAndWait()
         def play_songs(s_mih):
             if (s_mih):
              st.write(f"Playing the song: {s_mih}")
@@ -377,9 +377,9 @@ def show():
         play(s_mih)
   import urllib
   def talk_ri(s_rih):
-        engine = pyttsx3.init()
-        engine.say(s_rih)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_rih)
+        # engine.runAndWait()
         def play_songs(s_rih):
             if (s_rih):
              st.write(f"Playing the song: {s_rih}")
@@ -445,9 +445,9 @@ def show():
       # 3rd row
   lee, mii, rii = st.columns(3)
   def talk_lee(s_leeh):
-        engine = pyttsx3.init()
-        engine.say(s_leeh)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_leeh)
+        # engine.runAndWait()
         def play_songs(s_leeh):
             if (s_leeh):
              st.write(f"Playing the song: {s_leeh}")
@@ -478,9 +478,9 @@ def show():
                 st.error("No video found for this song 😢")
         play(s_leeh)
   def talk_mii(s_miih):
-        engine = pyttsx3.init()
-        engine.say(s_miih)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_miih)
+        # engine.runAndWait()
         def play_songs(s_miih):
             if (s_miih):
              st.write(f"Playing the song: {s_miih}")
@@ -514,9 +514,9 @@ def show():
                 st.error("No video found for this song 😢")
         play(s_miih)
   def talk_rii(s_riih):
-        engine = pyttsx3.init()
-        engine.say(s_riih)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_riih)
+        # engine.runAndWait()
         def play_songs(s_riih):
             if (s_riih):
              st.write(f"Playing the song: {s_riih}")
@@ -574,3 +574,4 @@ def show():
       talk_rii(s_riih)
       recommand(s_riih)
 # show()
+
