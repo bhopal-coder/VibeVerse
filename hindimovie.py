@@ -93,12 +93,12 @@ def show():
             st.write(video["title"])
             st.video(video["url"])
   def talk_m(s2):
-         engine = pyttsx3.init()
-         engine.say(s2)
-         engine.runAndWait()
+         # engine = pyttsx3.init()
+         # engine.say(s2)
+         # engine.runAndWait()
          def play_mop(s2):
              if (s2):
-              st.write(f"Playing the movie: {s2}")
+              st.write(f"Playing the trailer/movie: {s2}")
               
               # talk_l(f"Playing the song {(song1[''])}")
         # url = f"https://www.google.com/search?q={podcast_name}"
@@ -126,7 +126,7 @@ def show():
             unsafe_allow_html=True,
                  )
               else:
-                 st.error("No video found for this movie 😢")
+                 st.error("No video found for this movie")
              play(s2) 
   # dmh=df5[df5['original_language']=='Hindi']
   import random
@@ -165,12 +165,12 @@ def show():
     s_riihm=songhm9['Title']
 
   def talk_r(s_rhm):                    
-        engine = pyttsx3.init()
-        engine.say(s_rhm)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_rhm)
+        # engine.runAndWait()
         def play_songs(s_rhm):
              if (s_rhm):
-              st.write(f"Playing the trailer: {s_rhm}")
+              st.write(f"Playing the trailer/movie: {s_rhm}")
               
               # talk_l(f"Playing the song {(song1[''])}")
         # url = f"https://www.google.com/search?q={podcast_name}"
@@ -198,7 +198,7 @@ def show():
             unsafe_allow_html=True,
                  )
               else:
-                 st.error("No video found for this movie 😢")
+                 st.error("No video found for this movie")
         play(s_rhm)
 
   from sklearn.feature_extraction.text import CountVectorizer
@@ -233,12 +233,12 @@ def show():
   import requests
   import urllib
   def talk_l(s_lhm):
-        engine = pyttsx3.init()
-        engine.say(s_lhm)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_lhm)
+        # engine.runAndWait()
         def play_songs(s_lhm):
             if (s_lhm):
-             st.write(f"Playing the song: {s_lhm}")
+             st.write(f"Playing the trailer/movie: {s_lhm}")
             
             query = urllib.parse.quote(s_lhm + " official trailer")
             url=f"https://www.youtube.com/results?search_query={s_lhm}"
@@ -262,16 +262,16 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this movie")
         play(s_lhm)
 
   def talk_m(s_mhm):
-        engine = pyttsx3.init()
-        engine.say(s_mhm)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_mhm)
+        # engine.runAndWait()
         def play_songs(s_mhm):
             if (s_mhm):
-              st.write(f"Playing the song: {s_mhm}")
+              st.write(f"Playing the trailer/movie: {s_mhm}")
             
             # talk_l(f"Playing the song {(song1[''])}")
       # url = f"https://www.google.com/search?q={podcast_name}"
@@ -297,7 +297,7 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this movie 😢")
+                st.error("No video found for this movie")
         play(s_mhm)
 # recommand(s_l)      
 # 1st column
@@ -351,12 +351,12 @@ def show():
 # 2 layout columns 
   import requests
   def talk_le(s_lehm):
-        engine = pyttsx3.init()
-        engine.say(s_lehm)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_lehm)
+        # engine.runAndWait()
         def play_songs(s_lehm):
             if (s_lehm):
-             st.write(f"Playing the song: {s_lehm}")
+             st.write(f"Playing the trailer/movie: {s_lehm}")
             query = urllib.parse.quote(s_lehm + " official trailer")
             url=f"https://www.youtube.com/results?search_query={s_lehm}"
           #   webbrowser.open(url)
@@ -370,8 +370,8 @@ def show():
             #   return None
             
             else:
-              st.write("Please provide a song name.")
-              talk_le("Please provide a song name.")
+              st.write("Please provide a movie name.")
+              talk_le("Please provide a movie name.")
       #  play_songs(s_l)
         def play(s_lehm):
             url = play_songs(s_lehm)
@@ -381,17 +381,17 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this movie")
         play(s_lehm)
 
 
   def talk_mi(s_mihm):
-        engine = pyttsx3.init()
-        engine.say(s_mihm)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_mihm)
+        # engine.runAndWait()
         def play_songs(s_mihm):
             if (s_mihm):
-             st.write(f"Playing the song: {s_mihm}")
+             st.write(f"Playing the trailer/movie: {s_mihm}")
             
             # talk_l(f"Playing the song {(song1[''])}")
       # url = f"https://www.google.com/search?q={podcast_name}"
@@ -408,8 +408,8 @@ def show():
             #   return None
             
             else:
-              st.write("Please provide a song name.")
-              talk_mi("Please provide a song name.")
+              st.write("Please provide a movie name.")
+              talk_mi("Please provide a movie name.")
       #  play_songs(s_l)
         def play(s_mihm):
             url = play_songs(s_mihm)
@@ -419,16 +419,16 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this movie")
         play(s_mihm)
   import urllib
   def talk_ri(s_rihm):
-        engine = pyttsx3.init()
-        engine.say(s_rihm)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_rihm)
+        # engine.runAndWait()
         def play_songs(s_rihm):
             if (s_rihm):
-             st.write(f"Playing the song: {s_rihm}")
+             st.write(f"Playing the trailer/movie: {s_rihm}")
             
             # talk_l(f"Playing the song {(song1[''])}")
       # url = f"https://www.google.com/search?q={podcast_name}"
@@ -445,8 +445,8 @@ def show():
             #   return None
             
             else:
-              st.write("Please provide a song name.")
-              talk_r("Please provide a song name.")
+              st.write("Please provide a movie name.")
+              talk_r("Please provide a movie name.")
       #  play_songs(s_l)
         def play(s_rihm):
             url = play_songs(s_rihm)
@@ -456,7 +456,7 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this movie")
         play(s_rihm)
 
 # Left Column - Fixed Song. 2nd column
@@ -491,12 +491,12 @@ def show():
       # 3rd row
   leehhm, miihhm, riihhm = st.columns(3)
   def talk_lee(s_leehm):
-        engine = pyttsx3.init()
-        engine.say(s_leehm)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_leehm)
+        # engine.runAndWait()
         def play_songs(s_leehm):
             if (s_leehm):
-             st.write(f"Playing the song: {s_leehm}")
+             st.write(f"Playing the trailer/movie: {s_leehm}")
             
             
             query = urllib.parse.quote(s_leehm + " official trailer")
@@ -512,8 +512,8 @@ def show():
             #   return None
             
             else:
-              st.write("Please provide a song name.")
-              talk_lee("Please provide a song name.")
+              st.write("Please provide a movie name.")
+              talk_lee("Please provide a movie name.")
       #  play_songs_l)
         def play(s_leehm):
             url = play_songs(s_leehm)
@@ -523,15 +523,15 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this movie")
         play(s_leehm)
   def talk_mii(s_miihm):
-        engine = pyttsx3.init()
-        engine.say(s_miihm)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_miihm)
+        # engine.runAndWait()
         def play_songs(s_miihm):
             if (s_miihm):
-             st.write(f"Playing the song: {s_miihm}")
+             st.write(f"Playing the trailer/movie: {s_miihm}")
             
             # talk_l(f"Playing the song {(song1[''])}")
       # url = f"https://www.google.com/search?q={podcast_name}"
@@ -548,8 +548,8 @@ def show():
             #   return None
             
             else:
-              st.write("Please provide a song name.")
-              talk_mii("Please provide a song name.")
+              st.write("Please provide a movie name.")
+              talk_mii("Please provide a movie name.")
       #  play_songs(s_l)
         def play(s_miihm):
             url = play_songs(s_miihm)
@@ -559,15 +559,15 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this movie")
         play(s_miihm)
   def talk_rii(s_riihm):
-        engine = pyttsx3.init()
-        engine.say(s_riihm)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_riihm)
+        # engine.runAndWait()
         def play_songs(s_riihm):
             if (s_riihm):
-             st.write(f"Playing the song: {s_riihm}")
+             st.write(f"Playing the trailer/movie: {s_riihm}")
             
             
             query = urllib.parse.quote(s_riihm + " official trailer")
@@ -583,8 +583,8 @@ def show():
             #   return None
             
             else:
-              st.write("Please provide a song name.")
-              talk_rii("Please provide a song name.")
+              st.write("Please provide a movie name.")
+              talk_rii("Please provide a movie name.")
       #  play_songs(s_l)
         def play(s_riihm):
             url = play_songs(s_riihm)
@@ -594,7 +594,7 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this movie")
         play(s_riihm)
 # Left Column - Fixed Song 1
   with leehhm:
@@ -622,3 +622,4 @@ def show():
       talk_rii(s_riihm)
       recommandh(s_riihm)
 # show()
+
