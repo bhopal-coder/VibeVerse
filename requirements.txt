@@ -5,8 +5,6 @@ urllib3
 requests
 opencv-python-headless
 numpy
-Pillow
+pillow
 torch
 torchvision
-PyTorch
-
