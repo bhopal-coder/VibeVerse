@@ -88,9 +88,9 @@ def show():
             st.write(video["title"])
             st.video(video["url"])
   def talk_m(s2):
-         engine = pyttsx3.init()
-         engine.say(s2)
-         engine.runAndWait()
+         # engine = pyttsx3.init()
+         # engine.say(s2)
+         # engine.runAndWait()
          def play_mop(s2):
              if (s2):
               st.write(f"Playing the movie: {s2}")
@@ -121,7 +121,7 @@ def show():
             unsafe_allow_html=True,
                  )
               else:
-                 st.error("No video found for this movie 😢")
+                 st.error("No video found for this movie")
              play(s2) 
 
   # dom=df7[df7['original_language']=='Punjabi']
@@ -181,9 +181,9 @@ def show():
     s_riip=songp9['Title']
 
   def talk_rp(s_rp):
-         engine = pyttsx3.init()
-         engine.say(s_rp)
-         engine.runAndWait()
+         # engine = pyttsx3.init()
+         # engine.say(s_rp)
+         # engine.runAndWait()
          def play_mop(s_rp):
              if (s_rp):
               st.write(f"Playing the : {s_rp}")
@@ -214,7 +214,7 @@ def show():
             unsafe_allow_html=True,
                  )
               else:
-                 st.error("No video found for this song 😢")
+                 st.error("No video found for this song")
          play(s_rp)
 
 
@@ -254,9 +254,9 @@ def show():
   import urllib
   import requests
   def talk_lp(s_lp):
-        engine = pyttsx3.init()
-        engine.say(s_lp)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_lp)
+        # engine.runAndWait()
         def play_mop(s_lp):
             if (s_lp):
              st.write(f"Playing the movie trailer: {s_lp}")
@@ -285,13 +285,13 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this movie 😢")
+                st.error("No video found for this movie")
         play(s_lp)
 
   def talk_mp(s_mp):
-        engine = pyttsx3.init()
-        engine.say(s_mp)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_mp)
+        # engine.runAndWait()
         def play_mop(s_mp):
             if (s_mp):
               st.write(f"Playing the movie trailer: {s_mp}")
@@ -320,7 +320,7 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this movie 😢")
+                st.error("No video found for this movie")
         play(s_mp)
 # recommand(s_l)      
 # 1st column
@@ -372,9 +372,9 @@ def show():
 # 2 layout columns 
   import requests
   def talk_lep(s_lep):
-        engine = pyttsx3.init()
-        engine.say(s_lep)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_lep)
+        # engine.runAndWait()
         def play_mop(s_lep):
             if (s_lep):
              st.write(f"Playing the movie: {s_lep}")
@@ -402,14 +402,14 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this movie 😢")
+                st.error("No video found for this movie")
         play(s_lep)
 
 
   def talk_mip(s_mip):
-        engine = pyttsx3.init()
-        engine.say(s_mip)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_mip)
+        # engine.runAndWait()
         def play_mop(s_mip):
             if (s_mip):
              st.write(f"Playing the movie: {s_mip}")
@@ -444,9 +444,9 @@ def show():
         play(s_mip)
   import urllib
   def talk_rip(s_rip):
-        engine = pyttsx3.init()
-        engine.say(s_rip)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_rip)
+        # engine.runAndWait()
         def play_mop(s_rihp):
             if (s_rihp):
              st.write(f"Playing the movie: {s_rip}")
@@ -477,7 +477,7 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this movie 😢")
+                st.error("No video found for this movie")
         play(s_rip)
 
 # Left Column - Fixed Song. 2nd column
@@ -511,9 +511,9 @@ def show():
       # 3rd row
   leepm, miipm, riipm = st.columns(3)
   def talk_lee(s_leep):
-        engine = pyttsx3.init()
-        engine.say(s_leep)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_leep)
+        # engine.runAndWait()
         def play_mop(s_leep):
             if (s_leep):
              st.write(f"Playing the song: {s_leep}")
@@ -541,12 +541,12 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this song")
         play(s_leep)
   def talk_mii(s_miip):
-        engine = pyttsx3.init()
-        engine.say(s_miip)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_miip)
+        # engine.runAndWait()
         def play_mop(s_miip):
             if (s_miip):
              st.write(f"Playing the song: {s_miip}")
@@ -577,12 +577,12 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this song")
         play(s_miip)
   def talk_rii(s_riip):
-        engine = pyttsx3.init()
-        engine.say(s_riip)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_riip)
+        # engine.runAndWait()
         def play_mop(s_riip):
             if (s_riip):
              st.write(f"Playing the song: {s_riip}")
@@ -612,7 +612,7 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this song 😢")
+                st.error("No video found for this song")
         play(s_riip)
 # Left Column - Fixed Song 1
   with leepm:
@@ -641,3 +641,4 @@ def show():
       recommandp(s_riip)
 
 # show()
+
