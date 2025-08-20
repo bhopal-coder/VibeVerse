@@ -86,9 +86,9 @@ def show():
             st.write(video["title"])
             st.video(video["url"])
   def talk_m(s2):
-         engine = pyttsx3.init()
-         engine.say(s2)
-         engine.runAndWait()
+         # engine = pyttsx3.init()
+         # engine.say(s2)
+         # engine.runAndWait()
          def play_mop(s2):
              if (s2):
               st.write(f"Playing the k-drama: {s2}")
@@ -156,9 +156,9 @@ def show():
     s_riik=song9k['Name']
 
   def talk_r(s_rk):
-         engine = pyttsx3.init()
-         engine.say(s_rk)
-         engine.runAndWait()
+         # engine = pyttsx3.init()
+         # engine.say(s_rk)
+         # engine.runAndWait()
          def play_songs(s_rk):
              if (s_rk):
               st.write(f"Playing the kdrama: {s_rk}")
@@ -189,7 +189,7 @@ def show():
             unsafe_allow_html=True,
                  )
               else:
-                 st.error("No video found for this K-Drama 😢")
+                 st.error("No video found for this K-Drama")
          play(s_rk)
 
 
@@ -224,9 +224,9 @@ def show():
   import urllib
   import requests
   def talk_l(s_lk):
-        engine = pyttsx3.init()
-        engine.say(s_lk)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_lk)
+        # engine.runAndWait()
         def play_songs(s_lk):
             if (s_lk):
              st.write(f"Playing the kdrama: {s_lk}")
@@ -255,13 +255,13 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this K-Drama 😢")
+                st.error("No video found for this K-Drama")
         play(s_lk)
 
   def talk_m(s_mk):
-        engine = pyttsx3.init()
-        engine.say(s_mk)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_mk)
+        # engine.runAndWait()
         def play_songs(s_mk):
             if (s_mk):
               st.write(f"Playing the kdrama: {s_mk}")
@@ -290,12 +290,12 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this K-Drama 😢")
+                st.error("No video found for this K-Drama")
         play(s_mk)
   def talk_r(s_rk):
-         engine = pyttsx3.init()
-         engine.say(s_rk)
-         engine.runAndWait()
+         # engine = pyttsx3.init()
+         # engine.say(s_rk)
+         # engine.runAndWait()
          def play_songs(s_rk):
              if (s_rk):
               st.write(f"Playing the kdrama: {s_rk}")
@@ -326,7 +326,7 @@ def show():
             unsafe_allow_html=True,
                  )
               else:
-                 st.error("No video found for this K-Drama 😢")
+                 st.error("No video found for this K-Drama")
          play(s_rk)
 
 # recommand(s_l)      
@@ -366,9 +366,9 @@ def show():
     s_miik=song8k['Name']
     s_riik=song9k['Name']
   def talk_lk(s_lk):
-        engine = pyttsx3.init()
-        engine.say(s_lk)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_lk)
+        # engine.runAndWait()
         def play_songs(s_lk):
             if (s_lk):
              st.write(f"Playing the kdrama: {s_lk}")
@@ -397,13 +397,13 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this K-Drama 😢")
+                st.error("No video found for this K-Drama")
         play(s_lk)
 
   def talk_mk(s_mk):
-        engine = pyttsx3.init()
-        engine.say(s_mk)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_mk)
+        # engine.runAndWait()
         def play_songs(s_mk):
             if (s_mk):
               st.write(f"Playing the kdrama: {s_mk}")
@@ -432,12 +432,12 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this K-Drama 😢")
+                st.error("No video found for this K-Drama")
         play(s_mk)
   def talk_rk(s_rk):
-         engine = pyttsx3.init()
-         engine.say(s_rk)
-         engine.runAndWait()
+         # engine = pyttsx3.init()
+         # engine.say(s_rk)
+         # engine.runAndWait()
          def play_songs(s_rk):
              if (s_rk):
               st.write(f"Playing the kdrama: {s_rk}")
@@ -468,7 +468,7 @@ def show():
             unsafe_allow_html=True,
                  )
               else:
-                 st.error("No video found for this K-Drama 😢")
+                 st.error("No video found for this K-Drama")
          play(s_rk)
   from sklearn.feature_extraction.text import CountVectorizer
   cvk=CountVectorizer(max_features=10000, stop_words='english')
@@ -541,9 +541,9 @@ def show():
 # 2 layout columns 
   import requests
   def talk_lek(s_lek):
-        engine = pyttsx3.init()
-        engine.say(s_lek)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_lek)
+        # engine.runAndWait()
         def play_songs(s_lek):
             if (s_lek):
              st.write(f"Playing the kdrama: {s_lek}")
@@ -571,14 +571,14 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this K-Drama 😢")
+                st.error("No video found for this K-Drama")
         play(s_lek)
 
 
   def talk_mik(s_mik):
-        engine = pyttsx3.init()
-        engine.say(s_mik)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_mik)
+        # engine.runAndWait()
         def play_songs(s_mik):
             if (s_mik):
              st.write(f"Playing the kdrama: {s_mik}")
@@ -609,13 +609,13 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this K-Drama 😢")
+                st.error("No video found for this K-Drama")
         play(s_mik)
   import urllib
   def talk_rik(s_rik):
-        engine = pyttsx3.init()
-        engine.say(s_rik)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_rik)
+        # engine.runAndWait()
         def play_songs(s_rik):
             if (s_rik):
              st.write(f"Playing the kdrama: {s_rik}")
@@ -646,7 +646,7 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this K-Drama 😢")
+                st.error("No video found for this K-Drama")
         play(s_rik)
 
 # Left Column - Fixed Song. 2nd column
@@ -681,9 +681,9 @@ def show():
       # 3rd row
   lee, mii, rii = st.columns(3)
   def talk_leek(s_leek):
-        engine = pyttsx3.init()
-        engine.say(s_leek)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_leek)
+        # engine.runAndWait()
         def play_songs(s_leek):
             if (s_leek):
              st.write(f"Playing the kdrama: {s_leek}")
@@ -711,12 +711,12 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this kdrama 😢")
+                st.error("No video found for this kdrama")
         play(s_leek)
   def talk_miik(s_miik):
-        engine = pyttsx3.init()
-        engine.say(s_miik)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_miik)
+        # engine.runAndWait()
         def play_songs(s_miik):
             if (s_miik):
              st.write(f"Playing the kdrama: {s_miik}")
@@ -747,12 +747,12 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this K-Drama 😢")
+                st.error("No video found for this K-Drama")
         play(s_miik)
   def talk_riik(s_riik):
-        engine = pyttsx3.init()
-        engine.say(s_riik)
-        engine.runAndWait()
+        # engine = pyttsx3.init()
+        # engine.say(s_riik)
+        # engine.runAndWait()
         def play_songs(s_riik):
             if (s_riik):
              st.write(f"Playing the kdrama: {s_riik}")
@@ -782,7 +782,7 @@ def show():
           unsafe_allow_html=True,
                 )
             else:
-                st.error("No video found for this K-Drama 😢")
+                st.error("No video found for this K-Drama")
         play(s_riik)
 # Left Column - Fixed Song 1
   with lee:
@@ -809,4 +809,5 @@ def show():
     if st.button("▶ Play", key="play_erii"):
       talk_riik(s_riik)
       recommand(s_riik)
+
 # show()                                     
